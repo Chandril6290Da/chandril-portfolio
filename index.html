@@ -1,0 +1,1899 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description"
+    content="Chandril Goswami — AI/ML engineer building practical intelligent systems, data products and robotics experiments.">
+  <title>Chandril Goswami / Intelligent Systems</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/systems-v2.css">
+  <link rel="stylesheet" href="css/portfolio-refresh.css">
+  <link rel="stylesheet" href="css/ml-playground.css">
+  <link rel="stylesheet" href="css/maze-showcase.css">
+  <link rel="stylesheet" href="css/experience-motion.css">
+  <link rel="stylesheet" href="css/chandril-portfolio.css">
+</head>
+
+<body>
+  <aside class="profile-rail" aria-label="Chandril Goswami profile and social links">
+    <a class="rail-photo" href="#hero" aria-label="Back to the top">
+      <img src="assets/profile-photo.jpeg" alt="Chandril Goswami">
+    </a>
+    <p class="rail-overline">AI / ML · BUILDER</p>
+    <h2>Chandril<br>Goswami</h2>
+    <p class="rail-location"><span aria-hidden="true"></span>Kolkata, India</p>
+    <div class="rail-rule"></div>
+    <p class="rail-note">Learning by building practical software, data tools and robotics experiments.</p>
+    <nav class="rail-socials" aria-label="Social profiles">
+      <a href="https://linkedin.com/in/chandrilgoswami" target="_blank" rel="noopener noreferrer"><svg class="social-mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.55V9h3.57v11.45ZM22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.21 0 22.23 0Z"/></svg><span>LinkedIn</span><i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+      <a href="https://github.com/Chandril6290Da" target="_blank" rel="noopener noreferrer"><svg class="social-mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.29 9.42 7.86 10.95.58.1.79-.25.79-.55v-2.1c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.3-1.69-1.3-1.69-1.07-.73.08-.72.08-.72 1.18.08 1.8 1.21 1.8 1.21 1.05 1.8 2.75 1.28 3.42.98.1-.76.41-1.28.74-1.58-2.55-.29-5.23-1.27-5.23-5.66 0-1.25.45-2.27 1.2-3.07-.12-.3-.52-1.46.12-3.04 0 0 .98-.31 3.2 1.17.93-.26 1.92-.4 2.91-.41.99.01 1.98.15 2.91.41 2.22-1.48 3.2-1.17 3.2-1.17.64 1.58.24 2.74.12 3.04.75.8 1.2 1.82 1.2 3.07 0 4.4-2.69 5.37-5.25 5.65.41.35.79 1.04.79 2.1v3.12c0 .3.21.65.8.54A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg><span>GitHub</span><i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+      <a href="mailto:chandrilgoswamiofficial6290@gmail.com"><i data-lucide="mail" aria-hidden="true"></i><span>Email</span><i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+    </nav>
+    <a class="rail-scroll" href="#about"><span>EXPLORE THE PRACTICE</span><i data-lucide="arrow-down" aria-hidden="true"></i></a>
+  </aside>
+
+  <nav class="nav" aria-label="Primary navigation">
+    <a class="brand" href="#hero"><span class="brand-mark">CG<span>.</span></span><span class="brand-label">SIGNAL /
+        01</span></a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-label="Open navigation menu"><i
+        data-lucide="menu"></i></button>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#systems">Systems</a>
+      <a href="#robotics">Robotics</a>
+      <a href="#technical-skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#job-match">Match</a>
+      <a href="#ml-playground">AI Lab</a>
+      <a href="#experience">Experience</a>
+      <a href="#command-center">Terminal</a>
+      <a href="#build-log">Builds</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="nav-tools">
+      <!-- <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle visual theme">
+        <i data-lucide="moon" class="theme-icon-dark"></i>
+        <i data-lucide="sun" class="theme-icon-light"></i>
+        <span class="theme-toggle-label">Dark</span>
+      </button> -->
+      <a class="nav-external" href="https://github.com/Chandril6290Da" target="_blank" rel="noopener">
+        GitHub <i data-lucide="arrow-up-right"></i>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION: HERO -->
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <div class="hero-copy reveal">
+          <span class="signal-pill">
+            <i class="signal-dot"></i>
+             <span></span> Kolkata, India
+          </span>
+          <p class="hero-kicker">ASPIRING AI / ML ENGINEER · BUILDER · EXPLORER</p>
+          Open to AI / ML opportunities
+          <h1 class="hero-title">Ideas in.<br><em>Intelligence out.</em></h1>
+          <p class="hero-intro">
+            I’m Chandril Goswami. I turn data, code and curiosity into practical products,
+            experiments and robots that do something useful.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">
+              Explore the work <i data-lucide="arrow-down-right"></i>
+            </a>
+            <a class="button button-ghost" href="#contact">
+              Start a conversation <i data-lucide="arrow-up-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" data-ag-speed="0.05">
+          <div class="portrait-wrap ag-border-glow-wrap">
+            <div class="portrait-frame">
+              <img src="assets/profile-photo.jpeg" alt="Portrait of Chandril Goswami">
+            </div>
+            <div class="portrait-caption">
+              <div>
+                <strong>Chandril Goswami</strong>
+                <span>AI / ML Engineer</span>
+              </div>
+                <span class="status">LEARNING BY BUILDING</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- SECTION: ABOUT -->
+    <section class="section about-section" id="about">
+      <div class="site-shell">
+        <div class="section-heading reveal">
+          <div class="section-index">01 <span>/</span> PROFILE</div>
+          <div>
+            <p class="eyebrow">PROFILE</p>
+            <h2 class="section-title">Curious by nature.<br><em>Technical by choice.</em></h2>
+          </div>
+        </div>
+
+        <div class="profile-layout">
+
+          <div class="profile-data-stream">
+            <div class="stream-header">
+              <span class="stream-pulse"></span>
+              <span>LIVE DECRYPTION // SUBJECT_01</span>
+            </div>
+            <div class="stream-content" id="profile-text-stream">
+              <p class="lead-text">My path into technology wasn’t perfectly straight — and that’s exactly what makes it
+                interesting.</p>
+              <p>I moved from commerce into computer applications because AI, machine learning, and building things with
+                code became the direction I genuinely wanted to pursue.</p>
+              <p>Today, I work across machine learning, data science, Python, web development, and embedded robotics. I
+                like projects with a clear purpose: a prediction model, a useful dashboard, a recommendation engine, or
+                a robot that actually moves when you tell it to.</p>
+            </div>
+
+            <div class="profile-quote">
+              <i data-lucide="quote"></i>
+              <div class="quote-text">
+                <span class="quote-line">Learn deeply.</span>
+                <span class="quote-line">Build often.</span>
+                <span class="quote-line">Keep improving.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="profile-modules">
+            <div class="module-card location-module">
+              <div class="module-bg"></div>
+              <div class="module-top">
+                <span class="module-id">MOD_01</span>
+                <i data-lucide="map-pin"></i>
+              </div>
+              <div class="module-body">
+                <small>CURRENT LOCATION</small>
+                <strong>Kolkata, India</strong>
+                <div class="radar-ping">
+                  <span></span><span></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="module-card edu-module">
+              <div class="module-top">
+                <span class="module-id">MOD_02</span>
+                <i data-lucide="graduation-cap"></i>
+              </div>
+              <div class="module-body">
+                <small>FORMAL EDUCATION</small>
+                <strong>BCA (Honours)<br>Machine Learning</strong>
+              </div>
+            </div>
+
+            <div class="module-card focus-module accent-glow">
+              <div class="module-top">
+                <span class="module-id">MOD_03</span>
+                <i data-lucide="cpu"></i>
+              </div>
+              <div class="module-body">
+                <small>CORE FOCUS</small>
+                <strong>ML / Data / Robotics</strong>
+                <div class="data-bars">
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: SYSTEMS V2 — Orbital Constellation -->
+    <section class="section systems-v2" id="systems">
+      <div class="sv2-grid-bg" aria-hidden="true"></div>
+      <div class="site-shell">
+
+        <!-- Header -->
+        <div class="sv2-header sv2-reveal">
+          <div class="sv2-section-index">02 <span>/</span> SYSTEMS</div>
+          <p class="sv2-eyebrow">THE WORKING MODEL</p>
+          <h2 class="sv2-title">From signal to<br><em>useful systems.</em></h2>
+          <p class="sv2-subtitle">Five interconnected domains form my technical core. Each feeds the next — from clean code to physical motion.</p>
+        </div>
+
+        <!-- Constellation Map -->
+        <div class="sv2-constellation-wrap sv2-reveal" data-delay="1">
+          <canvas id="sv2-constellation-canvas" aria-hidden="true"></canvas>
+
+          <!-- Orbital rings -->
+          <div class="sv2-orbit-ring ring-1" aria-hidden="true"></div>
+          <div class="sv2-orbit-ring ring-2" aria-hidden="true"></div>
+
+          <!-- SVG connection lines -->
+          <svg class="sv2-connections" id="sv2-connections-svg" aria-hidden="true"></svg>
+
+          <!-- Central core -->
+          <div class="sv2-core">
+            <span class="sv2-core-pulse" aria-hidden="true"></span>
+            <span class="sv2-core-label">CORE LOOP</span>
+            <strong class="sv2-core-text">BUILD<br><em>→</em> LEARN</strong>
+          </div>
+
+          <!-- Orbital skill nodes -->
+          <button class="sv2-node is-active" data-system="python" type="button">
+            <span class="sv2-node-id">01</span> PYTHON
+          </button>
+          <button class="sv2-node" data-system="data" type="button">
+            <span class="sv2-node-id">02</span> DATA
+          </button>
+          <button class="sv2-node" data-system="ml" type="button">
+            <span class="sv2-node-id">03</span> ML
+          </button>
+          <button class="sv2-node" data-system="genai" type="button">
+            <span class="sv2-node-id">04</span> GENAI
+          </button>
+          <button class="sv2-node" data-system="robotics" type="button">
+            <span class="sv2-node-id">05</span> ROBOTICS
+          </button>
+        </div>
+
+        <!-- Detail Panel -->
+        <div class="sv2-detail-panel sv2-reveal" data-delay="2">
+          <div class="sv2-detail-info">
+            <div class="sv2-detail-top">
+              <span class="sv2-status-badge"><span class="sv2-status-dot"></span> ACTIVE MAP</span>
+              <span class="sv2-counter" id="sv2-counter">01 / 05</span>
+            </div>
+            <h3 class="sv2-detail-title" id="sv2-detail-title">Python is the first layer.</h3>
+            <p class="sv2-detail-desc" id="sv2-detail-desc">The tool I use to turn an idea into a repeatable experiment: clean data, clear logic and small loops of feedback.</p>
+            <div class="sv2-tech-tags" id="sv2-detail-tags">
+              <span>Data wrangling</span>
+              <span>Automation</span>
+              <span>APIs</span>
+            </div>
+            <div class="sv2-progress-bar">
+              <div class="sv2-progress-fill"></div>
+            </div>
+            <p class="sv2-detail-hint">SELECT A NODE TO TRACE THE PATH · AUTO-CYCLING</p>
+          </div>
+          <div class="sv2-detail-visual">
+            <div class="sv2-viz-overlay">
+              <div class="sv2-viz-corner top-left"></div>
+              <div class="sv2-viz-corner top-right"></div>
+              <div class="sv2-viz-corner bottom-left"></div>
+              <div class="sv2-viz-corner bottom-right"></div>
+              <div class="sv2-viz-metrics">
+              <span class="sv2-viz-metric"><i data-lucide="activity"></i> <span id="viz-metric-1">SYSTEM: PYTHON</span></span>
+              <span class="sv2-viz-metric"><i data-lucide="cpu"></i> <span id="viz-metric-2">DOMAIN: 01 / 05</span></span>
+              </div>
+            </div>
+            <canvas id="sv2-visualizer-canvas" aria-label="Dynamic system visualization"></canvas>
+          </div>
+        </div>
+
+        <!-- Pipeline Flow -->
+        <div class="sv2-pipeline sv2-reveal" data-delay="3">
+          <div class="sv2-pipeline-label">SIGNAL PIPELINE</div>
+          <div class="sv2-pipeline-flow">
+            <div class="sv2-pipe-step">
+              <div class="sv2-pipe-icon"><i data-lucide="scan-line"></i></div>
+              <span class="sv2-pipe-name">INGEST</span>
+              <p class="sv2-pipe-desc">Collect raw data & signals</p>
+            </div>
+            <div class="sv2-pipe-step">
+              <div class="sv2-pipe-icon"><i data-lucide="settings-2"></i></div>
+              <span class="sv2-pipe-name">PROCESS</span>
+              <p class="sv2-pipe-desc">Clean, transform, structure</p>
+            </div>
+            <div class="sv2-pipe-step">
+              <div class="sv2-pipe-icon"><i data-lucide="brain-circuit"></i></div>
+              <span class="sv2-pipe-name">MODEL</span>
+              <p class="sv2-pipe-desc">Train, evaluate, iterate</p>
+            </div>
+            <div class="sv2-pipe-step">
+              <div class="sv2-pipe-icon"><i data-lucide="rocket"></i></div>
+              <span class="sv2-pipe-name">DEPLOY</span>
+              <p class="sv2-pipe-desc">Ship useful output</p>
+            </div>
+            <div class="sv2-pipeline-pulse" aria-hidden="true"></div>
+          </div>
+        </div>
+
+        <!-- Capability Cards -->
+        <div class="sv2-capabilities sv2-reveal" data-delay="4">
+          <div class="sv2-cap-label">CORE CAPABILITIES</div>
+          <div class="sv2-cap-grid">
+            <article class="sv2-cap-card">
+              <span class="sv2-cap-num">CAP_01</span>
+              <div class="sv2-cap-icon"><i data-lucide="code-2"></i></div>
+              <h4>Python</h4>
+              <p>Small loops, clean logic, repeatable experiments.</p>
+            </article>
+            <article class="sv2-cap-card">
+              <span class="sv2-cap-num">CAP_02</span>
+              <div class="sv2-cap-icon"><i data-lucide="database"></i></div>
+              <h4>Data Science</h4>
+              <p>Analysis that helps messy information speak.</p>
+            </article>
+            <article class="sv2-cap-card">
+              <span class="sv2-cap-num">CAP_03</span>
+              <div class="sv2-cap-icon"><i data-lucide="brain-circuit"></i></div>
+              <h4>Machine Learning</h4>
+              <p>Models measured against useful outcomes.</p>
+            </article>
+            <article class="sv2-cap-card">
+              <span class="sv2-cap-num">CAP_04</span>
+              <div class="sv2-cap-icon"><i data-lucide="cpu"></i></div>
+              <h4>IoT + Robotics</h4>
+              <p>Code that leaves the screen and moves.</p>
+            </article>
+          </div>
+        </div>
+
+        <!-- Neural Network Card V2 -->
+        <div class="sv2-neural sv2-reveal" data-delay="5" aria-labelledby="sv2-neural-title">
+          <div class="sv2-neural-copy">
+            <span class="eyebrow">HOW I UNDERSTAND NEURAL NETWORKS</span>
+            <h3 id="sv2-neural-title">
+              Inputs become patterns.<br><em>Patterns become decisions.</em>
+            </h3>
+            <p class="sv2-neural-note">
+              I think of a neural network as a signal moving through connected layers: the input is transformed step by step until the model produces an output.
+            </p>
+            <div class="sv2-neural-legend" aria-label="Neural network stages">
+              <span>INPUT</span><b>→</b><span>HIDDEN LAYERS</span><b>→</b><span>OUTPUT</span>
+            </div>
+          </div>
+          <div class="sv2-neural-visual" aria-label="Animated neural network visualization">
+            <canvas id="sv2-neural-canvas"></canvas>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- SECTION: ROBOTICS MAZE SIMULATOR -->
+    <section class="section maze-showcase" id="robotics" aria-labelledby="maze-title">
+      <div class="site-shell">
+        <div class="section-heading reveal">
+          <div class="section-index">03 <span>/</span> ROBOTICS</div>
+                    <!-- <div class="section-index">02A <span>/</span> ROBOTICS</div> -->
+          <div>
+            <p class="maze-kicker"><span class="maze-live-dot" aria-hidden="true"></span> AUTONOMOUS NAVIGATION LAB</p>
+            <h2 class="section-title" id="maze-title">A route through<br><em>the unknown.</em></h2>
+            <!-- <p class="maze-intro">A browser-based model of an Arduino-driven maze robot. The controller maps nearby walls, plans a shortest route with breadth-first search, and advances one cell at a time.</p> -->
+          </div>
+        </div>
+
+        <div class="maze-sim-layout">
+          <div class="maze-panel">
+            <div class="maze-panel-head">
+              <h3>Maze field <span aria-hidden="true">|</span> 15 x 11 cells</h3>
+              <span class="maze-status-chip" id="maze-mode-chip" data-mode="idle" aria-live="polite">Idle</span>
+            </div>
+            <div class="maze-canvas-wrap">
+              <canvas id="maze-sim-canvas" role="img" aria-label="Robot maze simulation. Start is in the upper left and destination is in the lower right."></canvas>
+            </div>
+            <div class="maze-legend" aria-label="Maze legend">
+              <span class="maze-legend-item"><i class="maze-swatch wall"></i>Wall</span>
+              <span class="maze-legend-item"><i class="maze-swatch obstacle"></i>Obstacle</span>
+              <span class="maze-legend-item"><i class="maze-swatch route"></i>Planned route</span>
+              <span class="maze-legend-item"><i class="maze-swatch travelled"></i>Travelled</span>
+              <span class="maze-legend-item"><i class="maze-swatch start"></i>Start</span>
+              <span class="maze-legend-item"><i class="maze-swatch goal"></i>Destination</span>
+              <span class="maze-legend-item"><i class="maze-swatch robot"></i>Robot</span>
+            </div>
+            <div class="maze-controls" aria-label="Simulation controls">
+              <button class="maze-control-btn primary" id="maze-toggle-btn" type="button">Start</button>
+              <button class="maze-control-btn" id="maze-step-btn" type="button">Step</button>
+              <button class="maze-control-btn" id="maze-reset-btn" type="button">Reset</button>
+              <label class="maze-speed" for="maze-speed-input">
+                <span>Speed</span>
+                <input id="maze-speed-input" type="range" min="250" max="1400" step="50" value="700">
+                <output id="maze-speed-output" for="maze-speed-input">1.0x</output>
+              </label>
+            </div>
+          </div>
+
+          <aside class="maze-telemetry-panel" aria-label="Live simulated robot telemetry">
+            <div class="maze-telemetry-head">
+              <h3>Robot telemetry</h3>
+              <span>SIM / LIVE</span>
+            </div>
+            <div class="maze-progress-block">
+              <div class="maze-progress-label"><span>Navigation progress</span><strong id="maze-progress-text">0%</strong></div>
+              <div class="maze-progress-track" id="maze-progress-track" role="progressbar" aria-label="Navigation progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+                <div class="maze-progress-fill" id="maze-progress-fill"></div>
+              </div>
+            </div>
+            <div class="maze-metrics-grid">
+              <div class="maze-metric"><span>Direction</span><strong id="maze-direction">EAST</strong></div>
+              <div class="maze-metric"><span>Operating mode</span><strong id="maze-mode">IDLE</strong></div>
+              <div class="maze-metric"><span>Steps taken</span><strong id="maze-steps">0</strong></div>
+              <div class="maze-metric"><span>Shortest path</span><strong id="maze-path-length">--</strong></div>
+            </div>
+            <div class="maze-sensors">
+              <h4>IR proximity sensors</h4>
+              <div class="maze-sensor-row">
+                <div class="maze-sensor"><span class="maze-sensor-label">Left</span><strong class="maze-sensor-value" id="maze-sensor-left" data-reading="clear">Clear</strong></div>
+                <div class="maze-sensor"><span class="maze-sensor-label">Front</span><strong class="maze-sensor-value" id="maze-sensor-front" data-reading="clear">Clear</strong></div>
+                <div class="maze-sensor"><span class="maze-sensor-label">Right</span><strong class="maze-sensor-value" id="maze-sensor-right" data-reading="clear">Clear</strong></div>
+              </div>
+            </div>
+            <div class="maze-motors">
+              <h4>L298N motor output</h4>
+              <div class="maze-motor-row">
+                <span class="maze-motor-chip" id="maze-motor-left" data-active="false">LEFT <b>HOLD</b></span>
+                <span class="maze-motor-chip" id="maze-motor-right" data-active="false">RIGHT <b>HOLD</b></span>
+              </div>
+            </div>
+            <p class="maze-disclaimer">All readings and motor states are simulated in this page. No physical Arduino or robot is connected.</p>
+          </aside>
+        </div>
+
+        <div class="maze-hardware">
+          <div class="maze-subhead">
+            <div>
+              <h3>Hardware architecture</h3>
+              <p>Sensor input flows into the controller; motor commands turn the plan into movement.</p>
+            </div>
+          </div>
+          <div class="maze-hardware-grid">
+            <article class="maze-hardware-card">
+              <div class="maze-hardware-icon" aria-hidden="true">UNO</div>
+              <h4>Arduino Uno</h4>
+              <p>Main controller reads sensors, runs navigation logic, and issues motor commands.</p>
+              <div class="maze-hardware-flow">CONTROL <b>&gt;</b></div>
+            </article>
+            <article class="maze-hardware-card">
+              <div class="maze-hardware-icon" aria-hidden="true">IR</div>
+              <h4>IR sensors</h4>
+              <p>Left, front, and right sensors detect nearby walls and obstacles.</p>
+              <div class="maze-hardware-flow">SENSE <b>&gt;</b></div>
+            </article>
+            <article class="maze-hardware-card">
+              <div class="maze-hardware-icon" aria-hidden="true">DRV</div>
+              <h4>L298N driver</h4>
+              <p>Translates controller signals into separate left and right motor outputs.</p>
+              <div class="maze-hardware-flow">DRIVE <b>&gt;</b></div>
+            </article>
+            <article class="maze-hardware-card">
+              <div class="maze-hardware-icon" aria-hidden="true">M</div>
+              <h4>DC motors + chassis</h4>
+              <p>Paired motors move and steer the robot chassis through the maze.</p>
+              <div class="maze-hardware-flow">MOVE <b>&gt;</b></div>
+            </article>
+            <article class="maze-hardware-card">
+              <div class="maze-hardware-icon" aria-hidden="true">PWR</div>
+              <h4>Power supply</h4>
+              <p>Provides power to the controller, driver, and motors.</p>
+              <div class="maze-hardware-flow">POWER</div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<!-- TECHNICAL SKILLS SECTION -->
+<section id="technical-skills" class="technical-skills section">
+  <div class="skills-container">
+
+    <div class="skills-heading">
+      <div class="section-index">04 <span>/</span> TECHNICAL SKILLS</div>
+      <span class="skills-eyebrow">WHAT I WORK WITH</span>
+      <h2>Core Technical <span>Skills</span></h2>
+      <p>
+        Technologies, tools, and concepts I explore to build
+        practical solutions across AI, data, web development,
+        and robotics.
+      </p>
+    </div>
+
+    <div class="skills-grid">
+
+      <!-- Programming -->
+      <article class="skill-card">
+        <div class="skill-card-header">
+          <span class="skill-icon">&lt;/&gt;</span>
+          <span class="skill-number">01</span>
+        </div>
+        <h3>Programming</h3>
+        <p>Core programming concepts and application development.</p>
+        <div class="skill-tags">
+          <span>Python</span>
+          <span>SQL</span>
+          <span>OOP</span>
+          <span>CRUD Operations</span>
+        </div>
+      </article>
+
+      <!-- Machine Learning & AI -->
+      <article class="skill-card">
+        <div class="skill-card-header">
+          <span class="skill-icon">◈</span>
+          <span class="skill-number">02</span>
+        </div>
+        <h3>Machine Learning &amp; AI</h3>
+        <p>Learning model development, data preparation, and evaluation.</p>
+        <div class="skill-tags">
+          <span>Machine Learning</span>
+          <span>Classification</span>
+          <span>Regression</span>
+          <span>NLP</span>
+          <span>Data Preprocessing</span>
+          <span>Model Evaluation</span>
+        </div>
+      </article>
+
+      <!-- Web Development -->
+      <article class="skill-card">
+        <div class="skill-card-header">
+          <span class="skill-icon">⌘</span>
+          <span class="skill-number">03</span>
+        </div>
+        <h3>Web Development</h3>
+        <p>Building responsive interfaces and database-driven websites.</p>
+        <div class="skill-tags">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript</span>
+          <span>Bootstrap</span>
+          <span>PHP</span>
+          <span>MySQL</span>
+          <span>Responsive Design</span>
+        </div>
+      </article>
+
+      <!-- Data Science & Analytics -->
+      <article class="skill-card">
+        <div class="skill-card-header">
+          <span class="skill-icon">▥</span>
+          <span class="skill-number">04</span>
+        </div>
+        <h3>Data Science &amp; Analytics</h3>
+        <p>Exploring, cleaning, analyzing, and visualizing data.</p>
+        <div class="skill-tags">
+          <span>Pandas</span>
+          <span>Matplotlib</span>
+          <span>Data Cleaning</span>
+          <span>Data Visualization</span>
+          <span>Power BI</span>
+          <span>Excel</span>
+        </div>
+      </article>
+
+      <!-- Robotics & Embedded Systems -->
+      <article class="skill-card">
+        <div class="skill-card-header">
+          <span class="skill-icon">⌬</span>
+          <span class="skill-number">05</span>
+        </div>
+        <h3>Robotics &amp; Embedded Systems</h3>
+        <p>Exploring microcontrollers, sensors, and robotic systems.</p>
+        <div class="skill-tags">
+          <span>Arduino</span>
+          <span>ESP32</span>
+          <span>Motor Drivers</span>
+          <span>Sensors</span>
+          <span>RC Car</span>
+          <span>Robotics</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- SECTION: EDUCATION -->
+    <section class="section education-section" id="education">
+      <div class="site-shell">
+        <div class="section-heading" data-gsap-reveal>
+          <div class="section-index">05 <span>/</span> EDUCATION</div>
+          <div>
+            <p class="eyebrow">ACADEMIC PATHWAY</p>
+            <h2 class="section-title">Knowledge is power.<br><em>Learning is the path.</em></h2>
+          </div>
+        </div>
+
+        <div class="ed-pathway">
+          <div class="ed-line" aria-hidden="true">
+            <div class="ed-line-active"></div>
+          </div>
+
+          <article class="ed-node-card">
+            <div class="ed-node-dot"></div>
+            <div class="ed-content">
+              <span class="ed-year">2018</span>
+              <h3>Secondary Education</h3>
+              <span class="ed-school">Hindu School</span>
+              <p>Built a strong foundation in core subjects, developing an early curiosity for mathematics and
+                problem-solving.</p>
+            </div>
+          </article>
+
+          <article class="ed-node-card">
+            <div class="ed-node-dot"></div>
+            <div class="ed-content">
+              <span class="ed-year">2020</span>
+              <h3>Higher Secondary Education</h3>
+              <span class="ed-school">Hindu School</span>
+              <p>Transitioned into Commerce and Computer Applications, discovering a passion for programming, logic, and
+                structured data.</p>
+            </div>
+          </article>
+
+          <article class="ed-node-card">
+            <div class="ed-node-dot"></div>
+            <div class="ed-content">
+              <span class="ed-year">2021—2024</span>
+              <h3>BCA (Honours) — Machine Learning</h3>
+              <span class="ed-school">EIILM Kolkata · Raigunj University</span>
+              <p>Specialized in AI/ML algorithms, data science, software development, neural networks, IoT, and building
+                intelligent systems.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: WORK -->
+
+<!-- SECTION 06: SELECTED WORK -->
+<section class="section work-section" id="projects">
+  <div class="site-shell">
+
+    <div class="section-heading reveal">
+      <div class="section-index">06 <span>/</span> SELECTED WORK</div>
+      <div>
+        <p class="eyebrow">PROJECTS · RESEARCH · ENGINEERING</p>
+        <h2 class="section-title">
+          Ideas into systems,<br>
+          <em>systems into impact.</em>
+        </h2>
+      </div>
+    </div>
+
+    <!-- <p class="work-intro reveal">
+      A growing collection of AI, machine learning, robotics, and
+      intelligent engineering projects. Planned projects will evolve
+      into working prototypes, documented experiments, and deployable systems.
+    </p> -->
+
+    <div class="work-filter-bar reveal" role="group"
+         aria-label="Filter projects by category">
+      <button class="work-filter active" data-filter="all"
+              aria-pressed="true">All Projects</button>
+      <button class="work-filter" data-filter="robotics"
+              aria-pressed="false">Robotics</button>
+      <button class="work-filter" data-filter="ai"
+              aria-pressed="false">AI / ML</button>
+      <button class="work-filter" data-filter="data"
+              aria-pressed="false">Data & IoT</button>
+    </div>
+
+    <div class="work-grid reveal" id="selected-work-grid">
+
+      <!-- 01: DRONE -->
+      <article class="work-card" data-category="robotics">
+        <div class="work-card-top">
+          <span>ROBOTICS / 01</span>
+          <span class="work-status">PLANNED</span>
+        </div>
+        <div class="work-art project-photo art-drone" aria-label="Illustrative project concept, not a project photograph"><span>FLIGHT<br>PATH</span></div>
+        <div class="work-card-copy">
+          <h3>Autonomous Drone System</h3>
+          <p>
+            A drone engineering project exploring telemetry, sensor
+            integration, computer vision, navigation, and flight-data analysis.
+          </p>
+          <div class="tag-row">
+            <span>Python</span><span>OpenCV</span><span>IoT</span>
+          </div>
+          <div class="work-card-footer">
+            <span class="work-type">Future Prototype</span>
+            <span class="work-arrow">↗</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 02: HEXAPOD -->
+      <article class="work-card" data-category="robotics">
+        <div class="work-card-top">
+          <span>ROBOTICS / 02</span>
+          <span class="work-status">PLANNED</span>
+        </div>
+        <div class="work-art project-photo art-hexapod" aria-label="Illustrative project concept, not a project photograph"><span>GAIT<br>STUDY</span></div>
+        <div class="work-card-copy">
+          <h3>Hexapod Walking Robot</h3>
+          <p>
+            A six-legged robot concept focused on gait generation,
+            servo control, inverse kinematics, and obstacle detection.
+          </p>
+          <div class="tag-row">
+            <span>C++</span><span>Python</span><span>ROS</span>
+          </div>
+          <div class="work-card-footer">
+            <span class="work-type">Future Prototype</span>
+            <span class="work-arrow">↗</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 03: RAG -->
+      <article class="work-card" data-category="ai">
+        <div class="work-card-top">
+          <span>GENERATIVE AI / 03</span>
+          <span class="work-status">PLANNED</span>
+        </div>
+        <div class="work-art project-photo art-rag" aria-label="Illustrative project concept, not a project photograph"><span>RETRIEVAL<br>→ RESPONSE</span></div>
+        <div class="work-card-copy">
+          <h3>AI-Powered RAG System</h3>
+          <p>
+            A document question-answering system using semantic search,
+            embeddings, retrieval, and source-grounded LLM responses.
+          </p>
+          <div class="tag-row">
+            <span>Python</span><span>LLMs</span><span>RAG</span>
+          </div>
+          <div class="work-card-footer">
+            <span class="work-type">Future AI System</span>
+            <span class="work-arrow">↗</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 04: CAREER AI -->
+      <article class="work-card" data-category="ai">
+        <div class="work-card-top">
+          <span>CAPSTONE / 01</span>
+          <span class="work-status">PLANNED</span>
+        </div>
+        <div class="work-art project-photo art-career" aria-label="Illustrative project concept, not a project photograph"><span>SKILLS<br>→ PATHWAYS</span></div>
+        <div class="work-card-copy">
+          <h3>AI Career Recommendation Engine</h3>
+          <p>
+            Match skills, interests, and learning goals with suitable
+            career paths and relevant job-description requirements.
+          </p>
+          <div class="tag-row">
+            <span>Python</span><span>ML</span><span>NLP</span>
+          </div>
+          <div class="work-card-footer">
+            <span class="work-type">Capstone Project</span>
+            <span class="work-arrow">↗</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 05: COMPUTER VISION -->
+      <article class="work-card" data-category="ai">
+        <div class="work-card-top">
+          <span>CAPSTONE / 02</span>
+          <span class="work-status">PLANNED</span>
+        </div>
+        <div class="work-art project-photo art-vision" aria-label="Illustrative project concept, not a project photograph"><span>FRAME<br>ANALYSIS</span></div>
+        <div class="work-card-copy">
+          <h3>Real-Time Computer Vision</h3>
+          <p>
+            Detect and classify objects in camera feeds, with potential
+            applications in robotics and intelligent monitoring.
+          </p>
+          <div class="tag-row">
+            <span>OpenCV</span><span>YOLO</span><span>Deep Learning</span>
+          </div>
+          <div class="work-card-footer">
+            <span class="work-type">Capstone Project</span>
+            <span class="work-arrow">↗</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 06: DATA -->
+      <article class="work-card" data-category="data">
+        <div class="work-card-top">
+          <span>CAPSTONE / 03</span>
+          <span class="work-status">PLANNED</span>
+        </div>
+        <div class="work-art project-photo art-data" aria-label="Illustrative project concept, not a project photograph"><span>DEMAND<br>→ INSIGHT</span></div>
+        <div class="work-card-copy">
+          <h3>Smart Sales & Inventory Intelligence</h3>
+          <p>
+            Build an analytics platform with sales dashboards, demand
+            forecasting, inventory alerts, and reporting.
+          </p>
+          <div class="tag-row">
+            <span>SQL</span><span>Pandas</span><span>Power BI</span>
+          </div>
+          <div class="work-card-footer">
+            <span class="work-type">Capstone Project</span>
+            <span class="work-arrow">↗</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 07: AGENTIC AI -->
+      <article class="work-card" data-category="ai">
+        <div class="work-card-top">
+          <span>CAPSTONE / 04</span>
+          <span class="work-status">PLANNED</span>
+        </div>
+        <div class="work-art project-photo art-agent" aria-label="Illustrative project concept, not a project photograph"><span>RESEARCH<br>LOOP</span></div>
+        <div class="work-card-copy">
+          <h3>Agentic AI Research Assistant</h3>
+          <p>
+            Explore an AI workflow that searches knowledge sources,
+            organizes research, summarizes findings, and cites references.
+          </p>
+          <div class="tag-row">
+            <span>LLMs</span><span>Tool Calling</span><span>Automation</span>
+          </div>
+          <div class="work-card-footer">
+            <span class="work-type">Capstone Project</span>
+            <span class="work-arrow">↗</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 08: IOT -->
+      <article class="work-card" data-category="data">
+        <div class="work-card-top">
+          <span>CAPSTONE / 05</span>
+          <span class="work-status">PLANNED</span>
+        </div>
+        <div class="work-art project-photo art-iot" aria-label="Illustrative project concept, not a project photograph"><span>SENSOR<br>NETWORK</span></div>
+        <div class="work-card-copy">
+          <h3>Intelligent IoT Monitoring</h3>
+          <p>
+            Connect embedded sensors to a monitoring system for live
+            readings, data visualization, and configurable alerts.
+          </p>
+          <div class="tag-row">
+            <span>ESP32</span><span>Sensors</span><span>MQTT</span>
+          </div>
+          <div class="work-card-footer">
+            <span class="work-type">Capstone Project</span>
+            <span class="work-arrow">↗</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="work-bottom-note reveal">
+      <span class="work-note-dot"></span>
+      <p>
+        08 PROJECT CONCEPTS · 03 ENGINEERING DOMAINS ·
+        BUILDING TOWARD WORKING PROTOTYPES
+      </p>
+    </div>
+
+  </div>
+</section>
+
+    <!-- SECTION: JOB MATCH -->
+    <section class="section match-section" id="job-match">
+      <div class="site-shell">
+        <div class="section-heading reveal">
+          <div class="section-index">07 <span>/</span> JOB MATCH</div>
+          <div>
+            <p class="eyebrow">LOCAL TOOL / PORTFOLIO-TO-JD ANALYSIS</p>
+            <h2 class="section-title">See the signal<br><em>before the interview.</em></h2>
+          </div>
+        </div>
+
+        <div class="match-panel reveal">
+          <div class="match-intro">
+            <span class="match-badge">◎ DETERMINISTIC ANALYSIS</span>
+            <h3>Job Match Analyzer</h3>
+            <p>Paste a job description to compare its language with the skills, projects, experience and education
+              already present in this portfolio.</p>
+            <p class="disclaimer">This is a portfolio-to-JD similarity analysis — not a hiring prediction.</p>
+            <label class="match-label" for="job-description">Paste job description</label>
+            <textarea class="match-textarea" id="job-description" rows="7"
+              placeholder="Paste the role description here…"></textarea>
+
+            <div class="match-actions">
+              <button class="button button-primary" id="analyze-match">Analyze match <i
+                  data-lucide="arrow-up-right"></i></button>
+              <button class="button button-ghost" id="clear-match">Clear</button>
+              <span class="match-status" id="match-status"></span>
+            </div>
+
+            <div class="match-sample">
+              <button id="load-sample">Load a small example</button>
+              <span>Runs locally in this browser</span>
+            </div>
+          </div>
+
+          <div class="match-results" id="match-results">
+            <div class="empty-state">
+              <i data-lucide="scan-line"></i>
+              <strong>Your analysis will appear here.</strong>
+              <p>Matched, partial and missing signals stay explainable.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  <!-- ==================== AI / ML INTERACTIVE PLAYGROUND ==================== -->
+<section id="ml-playground" class="ml-playground">
+  <div class="ml-container">
+
+    <div class="ml-heading">
+      <div class="section-index">08 <span>/</span> AI LAB</div>
+      <span class="ml-eyebrow"><span class="ml-live-dot"></span> INTERACTIVE AI LAB</span>
+      <h2>Explore the <span>Intelligence</span><br>Behind Machine Learning.</h2>
+      <p>Experiment with NLP, classification, regression, and model predictions through interactive visualizations.</p>
+    </div>
+
+    <div class="ml-tabs" role="tablist" aria-label="Machine learning playground">
+      <button class="ml-tab active" data-panel="nlp" role="tab" aria-selected="true">01 / NLP</button>
+      <button class="ml-tab" data-panel="classification" role="tab" aria-selected="false">02 / Classification</button>
+      <button class="ml-tab" data-panel="regression" role="tab" aria-selected="false">03 / Regression</button>
+      <button class="ml-tab" data-panel="pipeline" role="tab" aria-selected="false">04 / ML Pipeline</button>
+    </div>
+
+    <!-- NLP -->
+    <div class="ml-panel active" id="ml-panel-nlp" role="tabpanel">
+      <div class="ml-grid">
+        <div class="ml-card ml-workspace">
+          <div class="ml-card-top">
+            <div>
+              <span class="ml-kicker">LANGUAGE PROCESSING</span>
+              <h3>Text Intelligence Engine</h3>
+            </div>
+            <span class="ml-icon">Aa</span>
+          </div>
+
+          <label class="ml-label" for="ml-nlp-input">Enter a sentence</label>
+          <textarea id="ml-nlp-input" class="ml-textarea" rows="4" maxlength="1000">I love building intelligent machine learning applications!</textarea>
+
+          <div class="ml-samples">
+            <button type="button" data-sample="I love this amazing project!">Positive</button>
+            <button type="button" data-sample="This product is terrible and disappointing.">Negative</button>
+            <button type="button" data-sample="The model processes the data.">Neutral</button>
+          </div>
+
+          <button type="button" id="ml-analyze" class="ml-primary">Analyze Text <span>↗</span></button>
+
+          <div class="ml-subtitle">PROCESSING STEPS</div>
+          <div class="ml-steps" id="ml-nlp-steps">
+            <div class="ml-step"><span>01</span><div><b>Tokenization</b><small>Split text into individual tokens</small></div><i>WAITING</i></div>
+            <div class="ml-step"><span>02</span><div><b>Normalization</b><small>Lowercase and clean the text</small></div><i>WAITING</i></div>
+            <div class="ml-step"><span>03</span><div><b>Feature extraction</b><small>Identify words and patterns</small></div><i>WAITING</i></div>
+            <div class="ml-step"><span>04</span><div><b>Sentiment analysis</b><small>Estimate the sentiment score</small></div><i>WAITING</i></div>
+          </div>
+        </div>
+
+        <div class="ml-card ml-results">
+          <div class="ml-card-top">
+            <div><span class="ml-kicker">MODEL OUTPUT</span><h3>Sentiment Analysis</h3></div>
+            <span class="ml-status"><span class="ml-live-dot"></span> LOCAL ENGINE</span>
+          </div>
+
+          <div class="ml-sentiment">
+            <div class="ml-sentiment-icon" id="ml-sentiment-icon">✳</div>
+            <div><small>PREDICTED SENTIMENT</small><h3 id="ml-sentiment-label">Ready to analyze</h3></div>
+          </div>
+
+          <div class="ml-score-head"><span>Sentiment score</span><b id="ml-sentiment-score">0.00</b></div>
+          <div class="ml-meter"><div id="ml-sentiment-meter"></div></div>
+
+          <div class="ml-subtitle">TOKEN VISUALIZATION</div>
+          <div id="ml-token-view" class="ml-token-view"><span>Your analyzed tokens will appear here.</span></div>
+
+          <div class="ml-metrics">
+            <div><small>Total tokens</small><b id="ml-token-count">—</b></div>
+            <div><small>Unique words</small><b id="ml-unique-count">—</b></div>
+            <div><small>Word characters</small><b id="ml-char-count">—</b></div>
+          </div>
+          <p class="ml-note">Educational demo using a built-in word-based sentiment heuristic. This is not a trained NLP model.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CLASSIFICATION -->
+    <div class="ml-panel" id="ml-panel-classification" role="tabpanel" hidden>
+      <div class="ml-grid">
+        <div class="ml-card ml-workspace">
+          <span class="ml-kicker">SUPERVISED LEARNING</span>
+          <h3>Binary Classification</h3>
+          <p class="ml-description">Adjust the decision threshold and observe how predictions change.</p>
+
+          <div class="ml-equation">Probability ≥ Threshold → Positive</div>
+
+          <label class="ml-label" for="ml-threshold">Decision threshold <b id="ml-threshold-value">0.50</b></label>
+          <input id="ml-threshold" type="range" min="0.05" max="0.95" value="0.50" step="0.05" class="ml-range">
+
+          <div class="ml-range-labels"><span>0.05 · More positive predictions</span><span>0.95 · Fewer</span></div>
+
+          <div class="ml-subtitle">SAMPLE PREDICTIONS</div>
+          <div id="ml-class-samples" class="ml-class-samples"></div>
+
+          <button type="button" id="ml-reset-class" class="ml-secondary">Reset threshold</button>
+        </div>
+
+        <div class="ml-card ml-results">
+          <div class="ml-card-top"><div><span class="ml-kicker">LIVE EVALUATION</span><h3>Confusion Matrix</h3></div><span class="ml-status">LIVE</span></div>
+
+          <div class="ml-confusion">
+            <div class="ml-corner"></div>
+            <div class="ml-cm-head">Predicted +</div><div class="ml-cm-head">Predicted −</div>
+            <div class="ml-cm-side">Actual +</div>
+            <div class="ml-cm-cell ml-tp"><small>True Positive</small><b id="ml-tp">—</b></div>
+            <div class="ml-cm-cell ml-fn"><small>False Negative</small><b id="ml-fn">—</b></div>
+            <div class="ml-cm-side">Actual −</div>
+            <div class="ml-cm-cell ml-fp"><small>False Positive</small><b id="ml-fp">—</b></div>
+            <div class="ml-cm-cell ml-tn"><small>True Negative</small><b id="ml-tn">—</b></div>
+          </div>
+
+          <div class="ml-metrics ml-metrics-three">
+            <div><small>Accuracy</small><b id="ml-accuracy">—</b></div>
+            <div><small>Precision</small><b id="ml-precision">—</b></div>
+            <div><small>Recall</small><b id="ml-recall">—</b></div>
+          </div>
+
+          <p class="ml-note">The sample probabilities and actual labels are predefined for demonstration. Moving the threshold updates the predictions and metrics.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- REGRESSION -->
+    <div class="ml-panel" id="ml-panel-regression" role="tabpanel" hidden>
+      <div class="ml-grid">
+        <div class="ml-card ml-workspace">
+          <span class="ml-kicker">SUPERVISED LEARNING</span>
+          <h3>Regression Playground</h3>
+          <p class="ml-description">Explore how a linear model estimates a continuous numerical value.</p>
+
+          <div class="ml-equation">ŷ = b₀ + b₁x</div>
+
+          <label class="ml-label" for="ml-reg-x">Input feature (x) <b id="ml-reg-x-value">6</b></label>
+          <input type="range" id="ml-reg-x" class="ml-range" min="0" max="10" value="6" step="0.5">
+
+          <div class="ml-prediction-box">
+            <small>PREDICTED OUTPUT</small>
+            <div id="ml-reg-prediction">—</div>
+            <span id="ml-reg-equation">ŷ = b₀ + b₁x</span>
+          </div>
+
+          <div class="ml-subtitle">MODEL PARAMETERS</div>
+          <label class="ml-label" for="ml-reg-slope">Slope (b₁) <b id="ml-reg-slope-value">4</b></label>
+          <input type="range" id="ml-reg-slope" class="ml-range" min="-5" max="10" value="4" step="0.5">
+
+          <label class="ml-label" for="ml-reg-intercept">Intercept (b₀) <b id="ml-reg-intercept-value">5</b></label>
+          <input type="range" id="ml-reg-intercept" class="ml-range" min="-10" max="20" value="5" step="1">
+
+          <button type="button" id="ml-reg-reset" class="ml-secondary">Reset model</button>
+        </div>
+
+        <div class="ml-card ml-results">
+          <div class="ml-card-top"><div><span class="ml-kicker">DATA VISUALIZATION</span><h3>Linear Prediction</h3></div><span class="ml-status">LIVE PLOT</span></div>
+
+          <div class="ml-chart-wrap">
+            <svg id="ml-reg-chart" viewBox="0 0 440 290" role="img" aria-label="Interactive regression chart showing sample observations, fitted line, and selected prediction">
+              <g id="ml-reg-grid"></g>
+              <g id="ml-reg-line"></g>
+              <g id="ml-reg-points"></g>
+              <g id="ml-reg-marker"></g>
+              <g id="ml-reg-labels"></g>
+            </svg>
+          </div>
+
+          <div class="ml-legend"><span><i class="ml-legend-dot"></i> Observed data</span><span><i class="ml-legend-line"></i> Model line</span><span><i class="ml-legend-pred"></i> Selected prediction</span></div>
+
+          <div class="ml-metrics">
+            <div><small>Slope</small><b id="ml-reg-slope-out">—</b></div>
+            <div><small>Intercept</small><b id="ml-reg-intercept-out">—</b></div>
+            <div><small>Predicted y</small><b id="ml-reg-y-out">—</b></div>
+          </div>
+          <p class="ml-note">Sample observations are illustrative. The slope and intercept are user-controlled, not automatically fitted to this dataset.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- PIPELINE -->
+    <div class="ml-panel" id="ml-panel-pipeline" role="tabpanel" hidden>
+      <div class="ml-card ml-pipeline-card">
+        <div class="ml-card-top">
+          <div><span class="ml-kicker">FROM RAW DATA TO PREDICTION</span><h3>Machine Learning Pipeline</h3></div>
+          <span class="ml-status">INTERACTIVE</span>
+        </div>
+        <p class="ml-description">Run each stage to explore the logic behind a typical machine learning workflow.</p>
+
+        <div class="ml-pipeline" id="ml-pipeline">
+          <div class="ml-pipeline-node" data-stage="0"><span>01</span><div class="ml-pipeline-symbol">▤</div><b>Collect Data</b><small>Features & labels</small></div>
+          <div class="ml-pipeline-connector">→</div>
+          <div class="ml-pipeline-node" data-stage="1"><span>02</span><div class="ml-pipeline-symbol">⌘</div><b>Preprocess</b><small>Clean & transform</small></div>
+          <div class="ml-pipeline-connector">→</div>
+          <div class="ml-pipeline-node" data-stage="2"><span>03</span><div class="ml-pipeline-symbol">⠿</div><b>Train Model</b><small>Learn patterns</small></div>
+          <div class="ml-pipeline-connector">→</div>
+          <div class="ml-pipeline-node" data-stage="3"><span>04</span><div class="ml-pipeline-symbol">◈</div><b>Evaluate</b><small>Measure quality</small></div>
+          <div class="ml-pipeline-connector">→</div>
+          <div class="ml-pipeline-node" data-stage="4"><span>05</span><div class="ml-pipeline-symbol">↗</div><b>Predict</b><small>New observations</small></div>
+        </div>
+
+        <div class="ml-pipeline-detail" id="ml-pipeline-detail">
+          <span class="ml-kicker">STAGE 01 / OVERVIEW</span>
+          <h3>Start with data</h3>
+          <p>Machine learning begins with relevant, representative data. Features describe each example, while labels provide known answers for supervised learning.</p>
+        </div>
+        <div class="ml-pipeline-actions">
+          <button type="button" id="ml-pipeline-prev" class="ml-secondary" disabled>← Previous</button>
+          <span id="ml-pipeline-counter">Stage 1 of 5</span>
+          <button type="button" id="ml-pipeline-next" class="ml-primary">Next Stage →</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="ml-footer"><span><span class="ml-live-dot"></span> ALL DEMOS RUN LOCALLY IN YOUR BROWSER</span><span>BUILT FOR EXPLORATION · NOT PRODUCTION PREDICTIONS</span></div>
+  </div>
+</section>
+
+
+
+<script src="js/ml-playground.js"></script>
+
+    <!-- SECTION: EXPERIENCE / INTERNSHIPS -->
+     <!-- ======================================================
+     SECTION 06 — EXPERIENCE / INTERNSHIPS
+     HOLOGRAPHIC AI CAREER TIMELINE
+====================================================== -->
+
+<section class="section experience-section" id="experience">
+
+  <div class="exp-grid-bg"></div>
+  <div class="exp-orb exp-orb-one"></div>
+  <div class="exp-orb exp-orb-two"></div>
+
+  <div class="site-shell">
+
+    <!-- SECTION HEADER -->
+    <header class="exp-header exp-reveal">
+
+      <div class="exp-index">
+        <span>09</span>
+        <i>/</i>
+        EXPERIENCE & INTERNSHIPS
+      </div>
+
+      <div class="exp-status">
+        <span class="exp-status-dot"></span>
+        INTERNSHIP RECORDS // 03
+      </div>
+
+      <h2 class="experience-title">
+        Learning became<br>
+        <em>real-world experience.</em>
+      </h2>
+
+      <p class="exp-intro">
+        From machine learning experiments to practical industry
+        assignments — every experience is another step towards
+        building intelligent systems.
+      </p>
+
+    </header>
+
+
+    <!-- INTERNSHIP TIMELINE -->
+    <div class="exp-timeline">
+
+      <div class="exp-timeline-track">
+        <div class="exp-timeline-progress"></div>
+      </div>
+
+
+      <!-- ==========================================
+           INTERNSHIP 01 — YUVAINTERN
+      =========================================== -->
+
+      <article class="exp-card exp-reveal">
+
+        <div class="exp-timeline-node">
+          <span></span>
+        </div>
+
+        <div class="exp-card-inner">
+
+          <div class="exp-card-top">
+
+            <div class="exp-company-icon">
+              <span>YI</span>
+              <i class="exp-icon-ring"></i>
+            </div>
+
+            <div class="exp-card-heading">
+              <span class="exp-card-kicker">
+                INTERNSHIP_01 // AGRIBUSINESS AI
+              </span>
+
+              <h3>Machine Learning Data Analyst</h3>
+
+              <div class="exp-company-name">
+                YuvaIntern
+                <span class="exp-company-separator">/</span>
+                Remote
+              </div>
+            </div>
+
+            <span class="exp-completed-badge">
+              <span></span>
+              COMPLETED
+            </span>
+
+          </div>
+
+
+          <div class="exp-meta">
+
+            <div class="exp-meta-item">
+              <span class="exp-meta-icon">◷</span>
+              <span>12 Sep — 10 Oct 2026</span>
+            </div>
+
+            <div class="exp-meta-item">
+              <span class="exp-meta-icon">⌘</span>
+              <span>4 Weeks</span>
+            </div>
+
+            <div class="exp-meta-item">
+              <span class="exp-meta-icon">◎</span>
+              <span>Data Analytics</span>
+            </div>
+
+          </div>
+
+
+          <p class="exp-description">
+            Worked on an agribusiness-focused learning assignment
+            involving agricultural data analysis, crop-yield
+            insights and predictive modelling concepts.
+            The experience connected Python-based analysis with
+            practical questions in agricultural productivity.
+          </p>
+
+
+          <div class="exp-tags">
+            <span>Python</span>
+            <span>Data Analysis</span>
+            <span>Machine Learning</span>
+            <span>Agribusiness</span>
+            <span>Crop Yield Analysis</span>
+          </div>
+
+
+          <!-- DOCUMENTS -->
+          <div class="exp-documents">
+
+            <div class="exp-documents-heading">
+              <span class="exp-documents-indicator"></span>
+              SUPPORTING DOCUMENT FILES
+            </div>
+
+            <div class="exp-document-actions">
+
+              <a
+                class="exp-doc-btn"
+                href="OFFER%20LATTER/OfferLetter.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="exp-doc-icon">↗</span>
+                <span>
+                  <strong>Offer Letter</strong>
+                  <small>Internship Appointment</small>
+                </span>
+                <span class="exp-doc-arrow">↗</span>
+              </a>
+
+              <a
+                class="exp-doc-btn exp-doc-btn-complete"
+                href="COMPLETED%20INTERNSHIP/CompletionLetter_261024_232329.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="exp-doc-icon">✓</span>
+                <span>
+                  <strong>Experience Letter</strong>
+                  <small>Internship Completed</small>
+                </span>
+                <span class="exp-doc-arrow">↗</span>
+              </a>
+
+            </div>
+
+          </div>
+
+          <div class="exp-card-footer">
+            <span>YUVAINTERN</span>
+            <span class="exp-footer-status">SUPPORTING DOCUMENTS LINKED</span>
+          </div>
+
+        </div>
+
+      </article>
+
+        <!-- ==========================================
+           INTERNSHIP 02 — RABTECH ACADEMY
+      =========================================== -->
+
+      <article class="exp-card exp-reveal">
+
+        <div class="exp-timeline-node">
+          <span></span>
+        </div>
+
+        <div class="exp-card-inner">
+
+          <div class="exp-card-top">
+
+            <div class="exp-company-icon exp-company-icon-purple">
+              <span>RA</span>
+              <i class="exp-icon-ring"></i>
+            </div>
+
+            <div class="exp-card-heading">
+              <span class="exp-card-kicker">
+                INTERNSHIP_02 // ARTIFICIAL INTELLIGENCE
+              </span>
+
+              <h3>Artificial Intelligence & Machine Learning</h3>
+
+              <div class="exp-company-name">
+                RabTech Academy
+                <span class="exp-company-separator">/</span>
+                Remote
+              </div>
+            </div>
+
+            <span class="exp-completed-badge exp-completed-purple">
+              <span></span>
+              COMPLETED
+            </span>
+
+          </div>
+
+
+          <div class="exp-meta">
+
+            <div class="exp-meta-item">
+              <span class="exp-meta-icon">◷</span>
+              <span>30 Sep — 30 Oct 2026</span>
+            </div>
+
+            <div class="exp-meta-item">
+              <span class="exp-meta-icon">⌘</span>
+              <span>30 Days</span>
+            </div>
+
+            <div class="exp-meta-item">
+              <span class="exp-meta-icon">◎</span>
+              <span>AI & ML</span>
+            </div>
+
+          </div>
+
+
+          <p class="exp-description">
+            Completed a remote AI and Machine Learning internship
+            programme involving structured technical assignments.
+            The programme included ML problem framing, responsible
+            data documentation, feature engineering and
+            preprocessing activities.
+          </p>
+
+
+          <div class="exp-tags exp-tags-purple">
+            <span>Artificial Intelligence</span>
+            <span>Machine Learning</span>
+            <span>Feature Engineering</span>
+            <span>Data Preprocessing</span>
+            <span>Responsible AI</span>
+          </div>
+
+
+          <!-- DOCUMENTS -->
+          <div class="exp-documents">
+
+            <div class="exp-documents-heading">
+              <span class="exp-documents-indicator"></span>
+              INTERNSHIP CREDENTIALS
+            </div>
+
+            <div class="exp-document-actions">
+
+              <a
+                class="exp-doc-btn exp-doc-btn-purple"
+                href="OFFER%20LATTER/RabTech-Academy-Internship-Offer.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="exp-doc-icon">↗</span>
+                <span>
+                  <strong>Offer Letter</strong>
+                  <small>Official Internship Offer</small>
+                </span>
+                <span class="exp-doc-arrow">↗</span>
+              </a>
+
+              <a
+                class="exp-doc-btn exp-doc-btn-complete exp-doc-btn-purple"
+                href="COMPLETED%20INTERNSHIP/RabTech-Academy-Completion-Certificate.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="exp-doc-icon">✓</span>
+                <span>
+                  <strong>Completion Certificate</strong>
+                  <small>Issued 26 October 2026</small>
+                </span>
+                <span class="exp-doc-arrow">↗</span>
+              </a>
+
+            </div>
+
+          </div>
+
+
+          <div class="exp-card-footer">
+            <span>RABTECH ACADEMY</span>
+            <span class="exp-footer-status">CERTIFICATE FILE LINKED</span>
+          </div>
+
+        </div>
+
+      </article>
+
+<!-- ==========================================
+     INTERNSHIP 03 — CODOMAX DIGITAL SOLUTIONS
+=========================================== -->
+
+      <article class="exp-card exp-reveal">
+
+        <div class="exp-timeline-node">
+        <span></span>
+        </div>
+
+        <div class="exp-card-inner">
+
+        <!-- CARD HEADER -->
+
+        <div class="exp-card-top">
+
+            <div class="exp-company-icon exp-company-icon-cyan">
+                <span>CD</span>
+                <i class="exp-icon-ring"></i>
+            </div>
+
+            <div class="exp-card-heading">
+
+                <span class="exp-card-kicker">
+                  INTERNSHIP_03 // ARTIFICIAL INTELLIGENCE
+                </span>
+
+                <h3>Artificial Intelligence & Machine Learning</h3>
+
+                <div class="exp-company-name">
+                    Codomax Digital Solutions
+                    <span class="exp-company-separator">/</span>
+                    AI & ML
+                </div>
+
+            </div>
+
+            <span class="exp-completed-badge exp-completed-cyan">
+                <span></span>
+                COMPLETED
+            </span>
+
+        </div>
+
+
+        <!-- INTERNSHIP METADATA -->
+
+        <div class="exp-meta">
+
+            <div class="exp-meta-item">
+                <span class="exp-meta-icon">◷</span>
+                <span>15 Sep 2026</span>
+            </div>
+
+            <div class="exp-meta-item">
+                <span class="exp-meta-icon">⌘</span>
+                <span>AI & ML Internship</span>
+            </div>
+
+            <div class="exp-meta-item">
+                <span class="exp-meta-icon">◎</span>
+                <span>Artificial Intelligence</span>
+            </div>
+
+        </div>
+
+
+        <!-- INTERNSHIP DESCRIPTION -->
+
+        <p class="exp-description">
+            Completed an Artificial Intelligence and Machine Learning
+            internship at Codomax Digital Solutions. This experience
+            contributed to developing practical technical knowledge,
+            strengthening the understanding of AI/ML concepts and
+            building a foundation for solving real-world problems
+            using intelligent technologies.
+        </p>
+
+
+        <!-- SKILLS -->
+
+        <div class="exp-tags exp-tags-cyan">
+            <span>Artificial Intelligence</span>
+            <span>Machine Learning</span>
+            <span>AI Fundamentals</span>
+            <span>Problem Solving</span>
+            <span>Technical Learning</span>
+        </div>
+
+
+        <!-- DOCUMENTS -->
+
+        <div class="exp-documents">
+
+            <div class="exp-documents-heading">
+                <span class="exp-documents-indicator"></span>
+                INTERNSHIP CREDENTIALS
+            </div>
+
+            <div class="exp-document-actions">
+
+                <!-- OFFER LETTER -->
+
+                <a
+                    class="exp-doc-btn exp-doc-btn-cyan"
+                    href="OFFER%20LATTER/CHANDRIL_GOSWAMI_Offer_Letter.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <span class="exp-doc-icon">↗</span>
+
+                    <span>
+                        <strong>Offer Letter</strong>
+                        <small>Official Internship Offer</small>
+                    </span>
+
+                    <span class="exp-doc-arrow">↗</span>
+                </a>
+
+
+                <!-- INTERNSHIP CERTIFICATE -->
+
+                <a
+                    class="exp-doc-btn exp-doc-btn-complete exp-doc-btn-cyan"
+                    href="COMPLETED%20INTERNSHIP/CHANDRIL_GOSWAMI_Internship_Certificate.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <span class="exp-doc-icon">✓</span>
+
+                    <span>
+                        <strong>Internship Certificate</strong>
+                        <small>Issued 24 September 2026</small>
+                    </span>
+
+                    <span class="exp-doc-arrow">↗</span>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- CARD FOOTER -->
+
+        <div class="exp-card-footer">
+
+            <span>CODOMAX DIGITAL SOLUTIONS</span>
+
+            <span class="exp-footer-status">
+                CERTIFICATE FILE LINKED
+            </span>
+
+        </div>
+
+    </div>
+
+</article>
+
+
+
+      <!-- ==========================================
+           NEXT CHAPTER — CAREER OPPORTUNITIES
+      =========================================== -->
+
+      <article class="exp-card exp-next-card exp-reveal">
+
+        <div class="exp-timeline-node exp-next-node">
+          <span></span>
+        </div>
+
+        <div class="exp-next-inner">
+
+          <div class="exp-next-label">
+            <span class="exp-pulse"></span>
+            NEXT MISSION // READY
+          </div>
+
+          <h3>
+            The next chapter<br>
+            <em>is being built.</em>
+          </h3>
+
+          <p>
+            Exploring opportunities to apply AI, machine learning,
+            data science and intelligent automation to real-world
+            problems.
+          </p>
+
+          <a href="#contact" class="exp-next-button">
+            <span>Let's Connect</span>
+            <span>↗</span>
+          </a>
+
+        </div>
+
+      </article>
+
+    </div>
+
+
+    <!-- SECTION FOOTER -->
+    <div class="exp-system-footer exp-reveal">
+      <span>CAREER_LOG // 06</span>
+      <span class="exp-system-line"></span>
+      <span>CONTINUOUSLY LEARNING. CONSTANTLY BUILDING.</span>
+    </div>
+
+  </div>
+
+</section>
+    <!-- SECTION: TERMINAL / COMMAND CENTER -->
+    <section class="section command-section" id="command-center" aria-labelledby="command-title">
+      <div class="site-shell">
+        <div class="section-heading" data-gsap-reveal>
+          <div class="section-index">10 <span>/</span> COMMAND CENTER</div>
+          <div>
+            <p class="eyebrow">INTERACTIVE PORTFOLIO</p>
+            <h2 class="section-title" id="command-title">Explore by command.<br><em>Find the signal.</em></h2>
+          </div>
+        </div>
+        <div class="terminal-window" data-gsap-reveal>
+          <div class="terminal-topbar">
+            <div class="terminal-lights" aria-hidden="true"><span></span><span></span><span></span></div>
+            <span>CHANDRIL / COMMAND CENTER</span>
+            <button class="terminal-clear" id="terminal-clear" type="button"
+              aria-label="Clear terminal output">CLEAR</button>
+          </div>
+          <div class="terminal-output" id="terminal-output" role="log" aria-live="polite"
+            aria-relevant="additions text">
+            <p class="terminal-line terminal-muted">Portfolio shell v1.0 · local interface · type <code>help</code> to
+              begin.</p>
+            <p class="terminal-line"><span class="terminal-prompt">visitor@portfolio:~$</span> <span>help</span></p>
+            <p class="terminal-line terminal-muted">Commands: help, about, skills, projects, education, experience,
+              contact, clear</p>
+          </div>
+          <form class="terminal-form" id="terminal-form" autocomplete="off">
+            <label for="terminal-input" class="terminal-prompt">visitor@portfolio:~$</label>
+            <input id="terminal-input" name="command" type="text" placeholder="Type a command…"
+              aria-label="Terminal command" spellcheck="false" autocapitalize="off">
+            <button type="submit" aria-label="Run command"><i data-lucide="corner-down-left"></i></button>
+          </form>
+          <div class="terminal-hints"><span>TRY A COMMAND</span><button type="button"
+              data-terminal-command="projects">projects</button><button type="button"
+              data-terminal-command="skills">skills</button><button type="button"
+              data-terminal-command="contact">contact</button></div>
+        </div>
+        <p class="command-disclaimer">This is a safe, simulated portfolio terminal. It does not access your computer or
+          run system commands.</p>
+      </div>
+    </section>
+
+<!-- SECTION 08: ENGINEERING LAB / LIVE GITHUB PROJECTS -->
+<section class="section build-log-section"
+         id="build-log"
+         aria-labelledby="build-log-title">
+
+  <div class="site-shell">
+
+    <div class="section-heading" data-gsap-reveal>
+      <div class="section-index">
+        11 <span>/</span> ENGINEERING LAB
+      </div>
+
+      <div>
+        <p class="eyebrow">OPEN SOURCE · EXPERIMENTS · BUILDS</p>
+
+        <h2 class="section-title" id="build-log-title">
+          Think. Test.<br>
+          <em>Build with intent.</em>
+        </h2>
+      </div>
+    </div>
+
+    <p class="build-log-intro" data-gsap-reveal>
+      Explore my engineering work, experiments, and projects.
+      Every public repository is fetched directly from GitHub.
+    </p>
+
+    <!-- GitHub profile information -->
+    <div class="github-lab-toolbar">
+
+      <div class="github-lab-profile">
+        <span class="github-live-dot"></span>
+
+        <span id="github-status" role="status" aria-live="polite">
+          Connecting to GitHub...
+        </span>
+      </div>
+
+      <a
+        class="build-log-link"
+        href="https://github.com/Chandril6290Da"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub Profile
+        <i data-lucide="arrow-up-right"></i>
+      </a>
+
+    </div>
+
+    <!-- Search and language filter -->
+    <div class="github-lab-controls">
+
+      <label class="github-search-box">
+        <i data-lucide="search"></i>
+
+        <input
+          type="search"
+          id="github-project-search"
+          placeholder="Search my projects..."
+          aria-label="Search GitHub projects"
+        >
+      </label>
+
+      <select id="github-language-filter"
+              aria-label="Filter projects by programming language">
+        <option value="all">All Languages</option>
+      </select>
+
+      <select id="github-sort"
+              aria-label="Sort GitHub projects">
+        <option value="updated">Recently Updated</option>
+        <option value="stars">Most Stars</option>
+        <option value="name">Name A–Z</option>
+      </select>
+
+    </div>
+
+    <!-- Repository statistics -->
+    <div class="github-lab-stats">
+
+      <div class="github-stat">
+        <span class="github-stat-number" id="github-total">—</span>
+        <span>Repositories</span>
+      </div>
+
+      <div class="github-stat">
+        <span class="github-stat-number" id="github-stars">—</span>
+        <span>Total Stars</span>
+      </div>
+
+      <div class="github-stat">
+        <span class="github-stat-number" id="github-languages">—</span>
+        <span>Languages</span>
+      </div>
+
+    </div>
+
+    <!-- JavaScript renders all repository cards here -->
+    <div
+      class="build-log-grid github-project-grid"
+      id="github-project-grid"
+      aria-live="polite"
+    >
+      <div class="github-project-message">
+        Loading projects from GitHub...
+      </div>
+    </div>
+
+    <div class="github-lab-bottom">
+
+      <span class="build-log-status-dot"></span>
+
+      LIVE REPOSITORIES · REAL PROJECTS · CONTINUOUS LEARNING
+
+    </div>
+
+  </div>
+</section>
+    <!-- SECTION: CONTACT -->
+    <section class="contact-section" id="contact">
+      <div class="site-shell">
+        <div class="contact-card reveal">
+          <div class="contact-copy">
+            <div class="section-index">12 <span>/</span> LET’S TALK</div>
+            <p class="eyebrow">OPEN CHANNEL</p>
+            <h2>Have an idea?<br><em>Let’s build it.</em></h2>
+            <p>I’m open to AI/ML internships, junior roles, collaborations and interesting technical projects.</p>
+
+            <div class="contact-links">
+              <a href="mailto:chandrilgoswamiofficial6290@gmail.com"><i data-lucide="mail"></i> Email <i
+                  data-lucide="arrow-up-right"></i></a>
+              <a href="https://linkedin.com/in/chandrilgoswami" target="_blank" rel="noopener noreferrer"><svg class="social-mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.55V9h3.57v11.45ZM22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.21 0 22.23 0Z"/></svg> LinkedIn
+                <i data-lucide="arrow-up-right"></i></a>
+              <a href="https://github.com/Chandril6290Da" target="_blank" rel="noopener noreferrer"><svg class="social-mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.29 9.42 7.86 10.95.58.1.79-.25.79-.55v-2.1c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.3-1.69-1.3-1.69-1.07-.73.08-.72.08-.72 1.18.08 1.8 1.21 1.8 1.21 1.05 1.8 2.75 1.28 3.42.98.1-.76.41-1.28.74-1.58-2.55-.29-5.23-1.27-5.23-5.66 0-1.25.45-2.27 1.2-3.07-.12-.3-.52-1.46.12-3.04 0 0 .98-.31 3.2 1.17.93-.26 1.92-.4 2.91-.41.99.01 1.98.15 2.91.41 2.22-1.48 3.2-1.17 3.2-1.17.64 1.58.24 2.74.12 3.04.75.8 1.2 1.82 1.2 3.07 0 4.4-2.69 5.37-5.25 5.65.41.35.79 1.04.79 2.1v3.12c0 .3.21.65.8.54A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg> GitHub <i
+                  data-lucide="arrow-up-right"></i></a>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contact-form" novalidate>
+            <label for="contact-name">Your name</label>
+            <input id="contact-name" name="name" placeholder="A name is a good start" required>
+
+            <label for="contact-message">What are you thinking about?</label>
+            <textarea id="contact-message" name="message" placeholder="A role, a collaboration, a curious problem..."
+              required></textarea>
+
+            <button class="button button-primary" type="submit">Open email draft <i data-lucide="send"></i></button>
+            <span class="form-note" id="form-note">No forms go to a server. Your email client does the sending.</span>
+          </form>
+        </div>
+
+        <footer class="footer">
+          <span>© 2024 Chandril Goswami</span>
+          <span>BUILT WITH CURIOSITY · KOLKATA, INDIA</span>
+          <a href="#hero">BACK TO TOP <i data-lucide="chevron-down"></i></a>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="js/script.js"></script>
+  <script src="js/know-me-profile.js"></script>
+  <script src="js/profile-motion.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/experience-motion.js"></script>
+  <script src="js/education-motion.js"></script>
+  <script src="js/terminal.js"></script>
+  <script src="js/build-log.js"></script>
+  <script src="js/systems-v2.js"></script>
+  <script src="js/portfolio-motion.js"></script>
+  <script src="js/maze-showcase.js"></script>
+  <script src="js/github-projects.js" defer></script>
+  <script src="js/selected-work.js" defer></script>
+  <script src="js/theme-toggle.js"></script>
+</body>
+
+</html>
